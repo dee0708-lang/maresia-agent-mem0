@@ -1,0 +1,17 @@
+# Credentials and runtime data must never enter Git.
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+data/
+exports/
+profiles/
+runtime/
+artifacts/
+*.pem
+*.key
+credentials*.json
+.DS_Store
